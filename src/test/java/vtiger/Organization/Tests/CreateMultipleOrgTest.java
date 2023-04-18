@@ -38,6 +38,8 @@ public class CreateMultipleOrgTest extends BaseClass{
 		HomePage hp = new HomePage(driver);
 		hp.clickOnOrganizationLink();
 
+		
+		
 		// Step 6: Click on Create Organization Look up Image
 		OrganizationsPage op = new OrganizationsPage(driver);
 		op.clickOnCreateOrganizationLookUpImg();
